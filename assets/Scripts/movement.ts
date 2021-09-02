@@ -1,5 +1,5 @@
 
-import { Vec3 } from 'cc';
+import { UIComponent, Vec3 } from 'cc';
 import { UITransform , UITransformComponent, UICoordinateTracker} from 'cc';
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
@@ -27,7 +27,7 @@ export class Movement extends Component {
     @property
     speed : number = 10;
     @property
-    ang : number = 10;
+    ang : number = -10;
 
     start ()
     {
@@ -42,13 +42,20 @@ export class Movement extends Component {
     update(dt)
     {
         this.node.setPosition(this.node.position.x+this.speed*dt,this.node.position.y);
-        this.node.angle += this.ang;
+        //this.node.angle += this.ang;
         //this.node.scale += 0.001;
         //this.node.setScale(new Vec3(0.5,1,0));
-
-        if(this.node.position.x>this.node.parent.width)
+        //node.getComponent(UITransform).width
+        //console.log(' parent : ' + this.node.parent.getComponent(UITransform).width);
+        //console.log(' node positionn of x ' + this.node.position.x)
+        //console.log(' node width ' + this.node.width);
+        if(this.node.position.x + parseInt(this.node.width) > (this.node.parent.getComponent(UITransform).width) - this.node.position.x)
         {
-            this.node.setPosition(0,this.node.position.y);
+            this.speed = -200;
+        }
+        if(this.node.position.x - parseInt(this.node.width)< -(this.node.parent.getComponent(UITransform).width + this.node.position.x))
+        {
+            this.speed = 200;
         }
     }
 }

@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, Movement;
+  var _cclegacy, UITransform, _decorator, Component, _dec, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, Movement;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -20,6 +20,7 @@ System.register(["cc"], function (_export, _context) {
   return {
     setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
+      UITransform = _cc.UITransform;
       _decorator = _cc._decorator;
       Component = _cc.Component;
     }],
@@ -68,12 +69,20 @@ System.register(["cc"], function (_export, _context) {
         _proto.onLoad = function onLoad() {};
 
         _proto.update = function update(dt) {
-          this.node.setPosition(this.node.position.x + this.speed * dt, this.node.position.y);
-          this.node.angle += this.ang; //this.node.scale += 0.001;
+          this.node.setPosition(this.node.position.x + this.speed * dt, this.node.position.y); //this.node.angle += this.ang;
+          //this.node.scale += 0.001;
           //this.node.setScale(new Vec3(0.5,1,0));
+          //node.getComponent(UITransform).width
+          //console.log(' parent : ' + this.node.parent.getComponent(UITransform).width);
+          //console.log(' node positionn of x ' + this.node.position.x)
+          //console.log(' node width ' + this.node.width);
 
-          if (this.node.position.x > this.node.parent.width) {
-            this.node.setPosition(0, this.node.position.y);
+          if (this.node.position.x + parseInt(this.node.width) > this.node.parent.getComponent(UITransform).width - this.node.position.x) {
+            this.speed = -200;
+          }
+
+          if (this.node.position.x - parseInt(this.node.width) < -(this.node.parent.getComponent(UITransform).width + this.node.position.x)) {
+            this.speed = 200;
           }
         };
 
@@ -90,7 +99,7 @@ System.register(["cc"], function (_export, _context) {
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 10;
+          return -10;
         }
       })), _class2)) || _class));
       /**

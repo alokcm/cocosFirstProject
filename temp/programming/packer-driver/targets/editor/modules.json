@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 6403.264485001564,
+    "mTimestamp": 6363.927000999451,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,11 +389,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 10560898.577757,
+    "mTimestamp": 10947.110280998051,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/movement.ts",
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/buttonChangeScene.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -402,7 +402,91 @@
           },
           "end": {
             "line": 5,
-            "column": 98
+            "column": 107
+          }
+        }
+      },
+      {
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/changeScene.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 123
+          },
+          "end": {
+            "line": 5,
+            "column": 189
+          }
+        }
+      },
+      {
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/keyboards.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 205
+          },
+          "end": {
+            "line": 5,
+            "column": 269
+          }
+        }
+      },
+      {
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/mouse.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 285
+          },
+          "end": {
+            "line": 5,
+            "column": 345
+          }
+        }
+      },
+      {
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/movement.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 361
+          },
+          "end": {
+            "line": 5,
+            "column": 424
+          }
+        }
+      },
+      {
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/pauseResume.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 440
+          },
+          "end": {
+            "line": 5,
+            "column": 506
+          }
+        }
+      },
+      {
+        "value": "file:///Users/cocos/FirstProject2D/assets/Scripts/touch.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 522
+          },
+          "end": {
+            "line": 5,
+            "column": 582
           }
         }
       }
@@ -413,16 +497,53 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/buttonChangeScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/changeScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/keyboards.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/mouse.ts"
+      },
+      {
+        "isExternal": false,
         "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/movement.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/pauseResume.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/cocos/FirstProject2D/assets/Scripts/touch.ts"
       }
     ]
   },
   "file:///Users/cocos/FirstProject2D/assets/Scripts/movement.ts": {
-    "mTimestamp": 1630497509408.9856,
+    "mTimestamp": 1630580763080.745,
     "chunkId": "assets/Scripts/movement.js",
     "imports": [
       {
         "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 71
+          },
+          "end": {
+            "line": 3,
+            "column": 75
+          }
+        }
       },
       {
         "value": "cc",
@@ -434,6 +555,220 @@
           "end": {
             "line": 4,
             "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/cocos/FirstProject2D/assets/Scripts/keyboards.ts": {
+    "mTimestamp": 1630588508615.8452,
+    "chunkId": "assets/Scripts/keyboards.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 79
+          },
+          "end": {
+            "line": 2,
+            "column": 83
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/cocos/FirstProject2D/assets/Scripts/mouse.ts": {
+    "mTimestamp": 1630580764824.289,
+    "chunkId": "assets/Scripts/mouse.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/cocos/FirstProject2D/assets/Scripts/touch.ts": {
+    "mTimestamp": 1630583970725.5325,
+    "chunkId": "assets/Scripts/touch.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/cocos/FirstProject2D/assets/Scripts/changeScene.ts": {
+    "mTimestamp": 1630586791913.6658,
+    "chunkId": "assets/Scripts/changeScene.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 89
+          },
+          "end": {
+            "line": 2,
+            "column": 93
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/cocos/FirstProject2D/assets/Scripts/buttonChangeScene.ts": {
+    "mTimestamp": 1630587071634.7966,
+    "chunkId": "assets/Scripts/buttonChangeScene.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 80
+          },
+          "end": {
+            "line": 2,
+            "column": 84
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/cocos/FirstProject2D/assets/Scripts/pauseResume.ts": {
+    "mTimestamp": 1630588510981.4385,
+    "chunkId": "assets/Scripts/pauseResume.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 74
+          },
+          "end": {
+            "line": 2,
+            "column": 78
           }
         }
       }

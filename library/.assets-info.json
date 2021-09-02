@@ -11,7 +11,7 @@
     "time": 1630487286254.0588
   },
   "/Users/cocos/FirstProject2D/assets/Scripts": {
-    "time": 1630490000685.964,
+    "time": 1630587500861.4636,
     "uuid": "e06d8fd2-d7a0-4bdc-af70-8b8ccd981eae",
     "missing": false
   },
@@ -19,7 +19,7 @@
     "time": 1630487293810.2078
   },
   "/Users/cocos/FirstProject2D/assets/Textures": {
-    "time": 1630489767707.8306,
+    "time": 1630571643321.835,
     "uuid": "420c36c5-da36-4590-8662-99ff0b8f5768",
     "missing": false
   },
@@ -67,7 +67,7 @@
     "time": 1630488135161.0781
   },
   "/Users/cocos/FirstProject2D/assets/Scenes": {
-    "time": 1630489112291.8733,
+    "time": 1630571693086.5132,
     "uuid": "4d419cc1-c0aa-4ef9-a449-07764a82066f",
     "missing": false
   },
@@ -86,7 +86,7 @@
     "time": 1630488869825.6497
   },
   "/Users/cocos/FirstProject2D/assets/Scenes/NewScene.scene": {
-    "time": 1630495764756.308,
+    "time": 1630588530446.1438,
     "uuid": "372696df-c378-4088-966a-0f6fead2841a",
     "missing": false
   },
@@ -102,7 +102,7 @@
     "time": 1630489105483.719
   },
   "/Users/cocos/FirstProject2D/assets/Scenes/ExampleScene.scene": {
-    "time": 1630497523256.896,
+    "time": 1630588529345.2424,
     "uuid": "3cb3c860-daf2-4e43-8e7a-3f8a25f273b0",
     "missing": false
   },
@@ -115,11 +115,84 @@
     "time": 1630489767714.8354
   },
   "/Users/cocos/FirstProject2D/assets/Scripts/movement.ts": {
-    "time": 1630497509408.9856,
+    "time": 1630580763080.745,
     "uuid": "b1b6d01e-d2ec-432e-ac79-3fcea634f303",
     "missing": false
   },
   "/Users/cocos/FirstProject2D/assets/Scripts/movement.ts.meta": {
     "time": 1630490000686.6504
+  },
+  "/Users/cocos/FirstProject2D/assets/LearnAnimation.scene": {
+    "time": 1630569060941.3599,
+    "uuid": "b8879e7f-cff7-4f54-a31a-b516679cb859",
+    "missing": true
+  },
+  "/Users/cocos/FirstProject2D/assets/LearnAnimation.scene.meta": {
+    "time": 1630569060943.837
+  },
+  "/Users/cocos/FirstProject2D/assets/Scenes/LearnAnimation.scene.meta": {
+    "time": 1630569060943.837
+  },
+  "/Users/cocos/FirstProject2D/assets/Textures/any.jpeg": {
+    "time": 1630569113067.6785,
+    "uuid": "559ec4a2-2044-466a-aff7-1edbb7560ed5",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Textures/any.jpeg.meta": {
+    "time": 1630569113092.949
+  },
+  "/Users/cocos/FirstProject2D/assets/Textures/animation.anim.meta": {
+    "time": 1630571393508.8538
+  },
+  "/Users/cocos/FirstProject2D/assets/animation.anim.meta": {
+    "time": 1630571434655.107
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/keyboards.ts": {
+    "time": 1630588508615.8452,
+    "uuid": "5278a5fd-16c3-4907-bb39-8293a9750181",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/keyboards.ts.meta": {
+    "time": 1630572206140.176
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/mouse.ts": {
+    "time": 1630580764824.289,
+    "uuid": "9b2430e0-2971-4a76-8bbb-4d1c909b4fe4",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/mouse.ts.meta": {
+    "time": 1630576835507.2566
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/touch.ts": {
+    "time": 1630583970725.5325,
+    "uuid": "885e719e-73fa-4ad1-917a-b608ee2bbc39",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/touch.ts.meta": {
+    "time": 1630579961734.9045
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/changeScene.ts": {
+    "time": 1630586791913.6658,
+    "uuid": "d8b7a9a8-867e-4c38-a0dd-3b3fb732c3cf",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/changeScene.ts.meta": {
+    "time": 1630585547622.7803
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/buttonChangeScene.ts": {
+    "time": 1630587071634.7966,
+    "uuid": "0b45ba1d-c6fe-4afa-97fd-821b2fdb77db",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/buttonChangeScene.ts.meta": {
+    "time": 1630586991262.533
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/pauseResume.ts": {
+    "time": 1630588510981.4385,
+    "uuid": "c9184420-c875-4492-b098-02269c716b9f",
+    "missing": false
+  },
+  "/Users/cocos/FirstProject2D/assets/Scripts/pauseResume.ts.meta": {
+    "time": 1630587500862.0945
   }
 }
