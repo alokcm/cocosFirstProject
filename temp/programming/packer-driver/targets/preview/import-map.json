@@ -45,9 +45,9 @@
     },
     "./mods/cce/internal/x/prerequisite-imports.js": {
       "__unresolved_0": "./mods/fs/0/assets/Scripts/buttonChangeScene.js",
+      "__unresolved_1": "./mods/fs/0/assets/Scripts/changeScene.js",
       "__unresolved_2": "./mods/fs/0/assets/Scripts/keyboards.js",
       "__unresolved_3": "./mods/fs/0/assets/Scripts/mouse.js",
-      "__unresolved_1": "./mods/fs/0/assets/Scripts/changeScene.js",
       "__unresolved_4": "./mods/fs/0/assets/Scripts/movement.js",
       "__unresolved_5": "./mods/fs/0/assets/Scripts/pauseResume.js",
       "__unresolved_6": "./mods/fs/0/assets/Scripts/touch.js"
